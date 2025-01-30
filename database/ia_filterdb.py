@@ -34,10 +34,7 @@ class Media(Document):
         collection_name = COLLECTION_NAME
 
 async def get_files_db_size():
-    return (await mydb.command("dbstats"))['dataSize']
-
-async def files_db_size():
-    return (await sec_db.command("dbstats"))['dataSize']
+    return (await mydb + sec_db.command("dbstats"))['dataSize']
 
 async def save_file(media):
     """Save file in the database."""
@@ -129,8 +126,7 @@ async def get_search_results(query, max_results=MAX_BTN, offset=0, lang=None):
     cursor2.sort('$natural', -1)
     if lang:
         lang_files = [file async for file in (cursor1 + cursor2) if lang in file.file_name.lower()]
-        for files in cursor1 = lang_files[offset:][:max_results]
-        for files in cursor2 = lang_files[offset:][:max_results]
+        files = lang_files[offset:][:max_results]
         total_results = len(lang_files)
         next_offset = offset + max_results
         if next_offset >= total_results:
