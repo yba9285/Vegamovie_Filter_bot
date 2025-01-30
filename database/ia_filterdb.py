@@ -125,7 +125,7 @@ async def get_search_results(query, max_results=MAX_BTN, offset=0, lang=None):
     cursor2 = sec_col.Media.find(filter)
     cursor2.sort('$natural', -1)
     if lang:
-        lang_files = [file async for file in (cursor1 + cursor2) if lang in file.file_name.lower()]
+        lang_files = [file async for file in cursor1 + cursor2 if lang in file.file_name.lower()]
         files = lang_files[offset:][:max_results]
         total_results = len(lang_files)
         next_offset = offset + max_results
