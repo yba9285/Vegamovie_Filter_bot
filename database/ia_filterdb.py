@@ -34,7 +34,8 @@ class Media(Document):
         collection_name = COLLECTION_NAME
 
 async def get_files_db_size():
-    return (await mydb + sec_db.command("dbstats"))['dataSize']
+    return (await mydb.command("dbstats"))['dataSize'] + (await sec_db.command("dbstats"))['dataSize']
+    
 
 async def save_file(media):
     """Save file in the database."""
@@ -120,21 +121,19 @@ async def get_search_results(query, max_results=MAX_BTN, offset=0, lang=None):
     except:
         regex = query
     filter = {'file_name': regex}
-    cursor1 = col.Media.find(filter)
-    cursor1.sort('$natural', -1)
-    cursor2 = sec_col.Media.find(filter)
-    cursor2.sort('$natural', -1)
+    cursor = Media.find(filter)
+    cursor.sort('$natural', -1)
     if lang:
-        lang_files = [file async for file in cursor1 + cursor2 if lang in file.file_name.lower()]
+        lang_files = [file async for file in cursor if lang in file.file_name.lower()]
         files = lang_files[offset:][:max_results]
         total_results = len(lang_files)
         next_offset = offset + max_results
         if next_offset >= total_results:
             next_offset = ''
         return files, next_offset, total_results
-    cursor1 + cursor2.skip(offset).limit(max_results)
-    files = await cursor1 + cursor2.to_list(length=max_results)
-    total_results = await (col.Media.count_documents(filter) + sec_col.Media.count_documents(filter))
+    cursor.skip(offset).limit(max_results)
+    files = await cursor.to_list(length=max_results)
+    total_results = await Media.count_documents(filter)
     next_offset = offset + max_results
     if next_offset >= total_results:
         next_offset = ''       
@@ -155,18 +154,15 @@ async def get_bad_files(query, file_type=None, offset=0, filter=False):
     filter = {'file_name': regex}
     if file_type:
         filter['file_type'] = file_type
-    total_results = await (col.Media.count_documents(filter) + col.Media.count_documents(filter))
-    cursor1 = col.Media.find(filter)
-    cursor2.sort('$natural', -1)
-    cursor2 = sec_col.Media.find(filter)
-    cursor1.sort('$natural', -1)
-    files = await cursor1 + cursor2.to_list(length=total_results)
+    total_results = await Media.count_documents(filter)
+    cursor = Media.find(filter)
+    cursor.sort('$natural', -1)
+    files = await cursor.to_list(length=total_results)
     return files, total_results
 
 async def get_file_details(query):
     filter = {'file_id': query}
-    cursor1 = col.Media.find(filter)
-    cursor2 = sec_col.Media.find(filter)
+    cursor = Media.find(filter)
     filedetails = await cursor.to_list(length=1)
     return filedetails
 
