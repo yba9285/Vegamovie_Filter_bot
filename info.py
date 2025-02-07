@@ -42,18 +42,18 @@ S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://bharvadboy747:bharvadboy747@cl
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002084819782'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002084819782')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002084819782'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002104564413')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002429092558')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002084819782'))
 request_channel = environ.get('REQUEST_CHANNEL', 'LOG_CHANNEL') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002104564413')) # 
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002429092558')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/akDiscussion_group') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/vegamoviesnewin/277")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/vegamoviesnewin/277")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/vegamoviesnewin/277")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/akimax_03")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/akimax_03")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/akimax_03")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "de20394ac3c17f42a2a636168dd67df9820047c9")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkpays.in')
