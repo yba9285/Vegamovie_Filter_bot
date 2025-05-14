@@ -212,7 +212,7 @@ User - {}"""
 
     PREPLANS_TXT = """<b>👋 ʜᴇʏ {},
 
-<blockquote>🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇ ʙᴇɴɪꜰɪᴛꜱ:</blockquote>
+<blockquote>🎁 𝑆𝑢𝑏𝑠𝑐𝑟𝑖𝑏𝑒 𝑦𝑜𝑢𝑡𝑢𝑏𝑒 𝑡𝑜 𝑔𝑒𝑡 𝑃𝑟𝑖𝑚𝑖𝑢𝑚:</blockquote>
 
 ❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ
 ❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇs   
@@ -228,7 +228,7 @@ User - {}"""
 
     PREPLANSS_TXT = """<b>👋 ʜᴇʏ {}
     
-<blockquote>🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇ ʙᴇɴɪꜰɪᴛꜱ:</blockquote>
+<blockquote>🎁 𝑆𝑢𝑏𝑠𝑐𝑟𝑖𝑏𝑒 𝑦𝑜𝑢𝑡𝑢𝑏𝑒 𝑡𝑜 𝑔𝑒𝑡 𝑃𝑟𝑖𝑚𝑖𝑢𝑚:</blockquote>
 
 ❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ
 ❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇs   
@@ -257,11 +257,11 @@ User - {}"""
 
     FREE_TXT = """<b>👋 ʜᴇʏ {}
     
-<blockquote>🎖️ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ :</blockquote>
+<blockquote>🎖️𝑆𝑢𝑏𝑠𝑐𝑟𝑖𝑏𝑒 𝑦𝑜𝑢𝑡𝑢𝑏𝑒 𝑡𝑜 𝑔𝑒𝑡 𝑃𝑟𝑖𝑚𝑖𝑢𝑚 :</blockquote>
 
 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐭𝐨 𝐠𝐞𝐭 𝐏𝐫𝐢𝐦𝐢𝐮𝐦➠    𝟶𝟷 ᴍᴏɴᴛʜ
 
-🆔 ᴜᴘɪ ɪᴅ ➩ https://youtube.com/@piyagaming-l8m?si=KPIkd4fnQ_R-rQaD [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+🎥 𝚢𝚘𝚞𝚝𝚞𝚋𝚎 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 ➩ https://youtube.com/@piyagaming-l8m?si=KPIkd4fnQ_R-rQaD [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
