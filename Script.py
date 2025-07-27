@@ -261,11 +261,11 @@ User - {}"""
 
 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐭𝐨 𝐠𝐞𝐭 𝐏𝐫𝐢𝐦𝐢𝐮𝐦➠    𝟶𝟷 ᴍᴏɴᴛʜ
 
-🎥 𝚢𝚘𝚞𝚝𝚞𝚋𝚎 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 ➩ https://youtube.com/@piyagaming-l8m?si=KPIkd4fnQ_R-rQaD [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+🎥 𝚢𝚘𝚞𝚝𝚞𝚋𝚎 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 ➩ https://www.youtube.com/@ak_imax_03 [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
-🏷️ <a href='https://youtube.com/@piyagaming-l8m?si=KPIkd4fnQ_R-rQaD'>ᴘʀᴇᴍɪᴜᴍ ᴘʀᴏᴏꜰ</a>
+🏷️ <a href='https://www.youtube.com/@ak_imax_03'>ᴘʀᴇᴍɪᴜᴍ ᴘʀᴏᴏꜰ</a>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞.
 ‼️ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.
