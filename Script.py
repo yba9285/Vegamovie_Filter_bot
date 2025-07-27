@@ -203,7 +203,7 @@ User - {}"""
 #verified_{}_completed"""
 
 
-    MOVIES_UPDATE_TXT = """<b>#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅
+    MOVIES_UPDATE_TXT = """<b><a href='https://www.youtube.com/@ak_imax_03'>𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎</a> ✅
 **🍿 Title:** {title}
 **🎃 Genres:** {genres}
 **📆 Year:** {year}
