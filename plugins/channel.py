@@ -80,9 +80,9 @@ async def send_movie_updates(bot, file_name, caption, file_id):
         search_movie = movie_name.replace(" ", '-')
         movie_update_channel = await db.movies_update_channel_id()    
         btn = [[
-            InlineKeyboardButton('📂 ᴅᴏᴡɴʟᴏᴀᴅ 📂', url=f'https://subscribetoopen.blogspot.com')
+            InlineKeyboardButton('📂 ᴅᴏᴡɴʟᴏᴀᴅ 📂', url=f'https://youtu.be/e8EWHAeuUJQ?si=-KGrOcMlyWumLanp')
         ],[
-            InlineKeyboardButton('♻️ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ♻️', url=f'https://www.youtube.com/@ak_imax_03')
+            InlineKeyboardButton('♻️ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ♻️', url=f'https://youtu.be/e8EWHAeuUJQ?si=-KGrOcMlyWumLanp')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         if poster_url:
@@ -97,5 +97,6 @@ async def send_movie_updates(bot, file_name, caption, file_id):
         await bot.send_message(LOG_CHANNEL, f'Failed to send movie update. Error - {e}')
     
   
+
 
 
