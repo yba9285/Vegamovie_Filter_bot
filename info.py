@@ -21,13 +21,13 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1731356432').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/AoneMarathi") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002606471643'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+A4tVZCXbK2s2YzJl')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+Ngt8lLY5bwJmZWYx')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002124208809').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://yogedrasama:D8oNvWFxBws2et6W@cluster0.5m2w6n8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "mzfilestore")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Mz_Files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Mz_files')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
@@ -40,12 +40,12 @@ S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://bharvadboy747:bharvadboy747@cl
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002606471643'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002084819782')) # The movie you upload in it will be deleted from the bot.
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002474691060')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002606471643'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002437541681')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002937430915')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002387745957'))
 request_channel = environ.get('REQUEST_CHANNEL', 'LOG_CHANNEL') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002437541681')) # 
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002328506195')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/mzbotzsupport') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -152,7 +152,7 @@ admin_cmds = [
     "/delreq", "/channel", "/del_file", "/delete",
     "/deletefiles", "/deleteall", 
     "All These Commands Can Be Used Only By Admins.", 
-    "⚡ powered by @𝘃𝗲𝗴𝗮𝗺𝗼𝘃𝗶𝗲𝘀𝗻𝗲𝘄𝗶𝗻"
+    "⚡ powered by @MzBotz"
 ]
 
 cmds = [
