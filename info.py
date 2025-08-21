@@ -13,23 +13,23 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '26741021'))
-API_HASH = environ.get('API_HASH', '7c5af0b88c33d2f5cce8df5d82eb2a94')
+API_ID = int(environ.get('API_ID', '13441344'))
+API_HASH = environ.get('API_HASH', '2f10533d9068507d0c10bf1074527167')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6859451629 7386197638').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Mahesh8182") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084819782'))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1731356432').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/AoneMarathi") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002606471643'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+A4tVZCXbK2s2YzJl')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002372764752').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002124208809').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://maheshtreding8182:maheshtreding8182@cluster0.orb2w.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 
-MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
+MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
 F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://crazygaming4694:crazygaming4694@cluster0.v77dv.mongodb.net/?retryWrites=true&w=majority")   # This Db Is For File Data Store
@@ -39,9 +39,9 @@ S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://bharvadboy747:bharvadboy747@cl
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002084819782'))  # set shortner log channel
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002606471643'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002084819782')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002084819782'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002606471643'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002437541681')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002084819782'))
 request_channel = environ.get('REQUEST_CHANNEL', 'LOG_CHANNEL') # If anyone sends a request message to your bot, you will get it in this channel.
@@ -49,7 +49,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002437541681')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/akDiscussion_group') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/akimax_03")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/akimax_03")
